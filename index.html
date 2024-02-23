@@ -4,85 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body {
+       body {
             font-family: 'Times', 'Times New Roman', Times, serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-    header {
-        background-color: #333;
-        color: #E4AF07;
-        padding: 20px;
-        text-align: center;
-    }
+        header {
+            background-color: #333;
+            color: #E4AF07;
+            padding: 20px;
+            text-align: center;
+        }
 
-    .produtos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 20px;
-    }
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
 
-    .produto {
-        width: 300px;
-        margin: 20px;
-        padding: 10px;
-        border: 3px solid #E4AF07;
-        text-align: center;
-        border-radius: 20px; /* Adiciona bordas arredondadas */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    }
+        .produto {
+            width: 100%; /* Modificado para ocupar a largura total em telas menores */
+            margin: 20px;
+            padding: 10px;
+            border: 3px solid #E4AF07;
+            text-align: center;
+            border-radius: 20px; /* Adiciona bordas arredondadas */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
 
-    .produto img {
-        width: 100%;
-        max-height: 200px;
-        object-fit: cover;
-        border-radius: 8px; /* Adiciona bordas arredondadas */
-    }
+        .produto img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 8px; /* Adiciona bordas arredondadas */
+        }
 
-    .preco {
-        display: block;
-        margin: 10px 0;
-        color: #333;
-        font-weight: bold;
-    }
+        .preco {
+            display: block;
+            margin: 10px 0;
+            color: #333;
+            font-weight: bold;
+        }
 
-    button {
-        background-color: #E4AF07;
-        color: #333;
-        padding: 8px 16px;
-        border: none;
-        border-radius: 5px; /* Adiciona bordas arredondadas */
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
+        button {
+            background-color: #E4AF07;
+            color: #333;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px; /* Adiciona bordas arredondadas */
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
 
-    button:hover {
-        background-color: #555;
-    }
+        button:hover {
+            background-color: #555;
+        }
 
-    .informacoes-contato {
-        display: none;
-        text-align: center;
-        margin-top: 20px;
-        padding: 20px;
-        background-color: #f0f0f0;
-        border: 1px solid #ccc;
-        border-radius: 10px; /* Adiciona bordas arredondadas */
-    }
+        .informacoes-contato {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 10px; /* Adiciona bordas arredondadas */
+        }
 
-    footer {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 10px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
 
+        /* Adicionando media query para ajustar estilos em telas menores */
+        @media only screen and (max-width: 600px) {
+            .produto {
+                width: 100%; /* Ocupar a largura total em telas menores */
+                margin: 10px 0;
+            }
+        }
     </style>
     <link rel="icon" href="images/escudo_hf-removebg-preview.png"/>
     <title>Loja Hérois da Fé</title>
