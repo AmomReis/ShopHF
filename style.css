@@ -583,6 +583,8 @@ header {
     text-align: center;
 }
 
+
+
 article:hover {
     transform: scale(1.06);
     transition: .6s;
@@ -596,7 +598,7 @@ article:hover {
 }
 
 .produto {
-    width: 300px;
+    width: 200px;
     margin: 20px;
     padding: 10px;
     border: 3px solid #E4AF07;
@@ -606,7 +608,7 @@ article:hover {
 }
 
 .produto img {
-    width: 100%;
+    width: 60%;
     max-height: 100vh;
     object-fit: cover;
     border-radius: 8px; /* Adiciona bordas arredondadas */
