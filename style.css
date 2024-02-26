@@ -655,6 +655,7 @@ footer {
 
 @media screen and (max-width: 600px) {
     .produto{
-        width: 100px;
+        width: 400px;
+        
     }
 }
