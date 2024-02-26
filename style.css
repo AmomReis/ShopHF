@@ -652,3 +652,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+@media screen and (max-width: 900px) {
+    .produto{
+        width: 150px;
+    }
+}
