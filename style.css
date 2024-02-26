@@ -583,10 +583,6 @@ header {
     text-align: center;
 }
 
-section {
-    column-count: 2;
-}
-
 article:hover {
     transform: scale(1.06);
     transition: .6s;
@@ -594,7 +590,7 @@ article:hover {
 
 .produtos {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
     padding: 20px;
 }
