@@ -583,7 +583,9 @@ header {
     text-align: center;
 }
 
-
+section {
+    column-count: 2;
+}
 
 article:hover {
     transform: scale(1.06);
