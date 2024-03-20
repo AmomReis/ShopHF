@@ -592,7 +592,7 @@ article:hover {
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    overflow-x: hidden; /* Adiciona uma barra de rolagem horizontal */
+    overflow-x: auto; /* Adiciona uma barra de rolagem horizontal */
     white-space: nowrap; /* Impede que os produtos quebrem a linha */
 }
 
